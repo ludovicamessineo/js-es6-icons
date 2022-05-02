@@ -115,5 +115,11 @@ const icons = [
 
 icons.forEach(element => {
     const card  = document.createElement("div")
-    console.log(card);
+    card.classList.add("box");
+    card.innerHTML = `
+        <i class= "${element.family} ${element.prefix}${element.name}"></i>
+        <p> ${element.name}</p>
+    `
+
+    document.querySelector(".container").append(card);
 });
