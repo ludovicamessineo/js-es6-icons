@@ -24,7 +24,7 @@ h1 {
 
 /* MAIN */
 .container {
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
@@ -39,4 +39,23 @@ h1 {
     align-items: center;
     flex-direction: column;
     border: 1px solid palevioletred;
+}
+
+.orange {
+    color: orange;
+}
+
+.blue {
+    color: blue;
+}
+
+.green {
+    color: green;
+}
+
+p {
+    margin-top: .5rem;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8rem;
 }
